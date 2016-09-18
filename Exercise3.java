@@ -4,20 +4,23 @@
  * and open the template in the editor.
  */
 
-/*
- * Git Exercise. Changing comment1 
+/**
+ *
+ * @author thiagomerino
  */
-public class Exercise1 {
+public class Exercise3 {
     public static void main(String[] args){
         int[] vetor = new int[10];
+        int mult = 1;
+        
+        for(int i = 0; i < 10; i++)
+            vetor[i] = i + 1;
         
         for(int i = 0; i < 10; i++){
-            vetor[i] = i;
+            mult = mult * vetor[i];
         }
         
-        for(int i = 0; i < 10; i++){
-            System.out.println("Conteudo da posicao ["+i+"] : "+vetor[i]);
-        }
+        System.out.println("Multiplicacao de todos os valoress " +mult);
     }
     
 }
