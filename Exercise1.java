@@ -6,6 +6,7 @@
 
 /*
  * Git Exercise. Changing comment1 
+ * Git Exercise. Comment2
  */
 public class Exercise1 {
     public static void main(String[] args){
