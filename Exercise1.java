@@ -4,9 +4,8 @@
  * and open the template in the editor.
  */
 
-/**
- *
- * @author thiagomerino
+/*
+ * Git Exercise. Comment2
  */
 public class Exercise1 {
     public static void main(String[] args){
