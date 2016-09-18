@@ -6,7 +6,7 @@
 
 /**
  *
- * Learning git 3 
+ * JIRA learning1 
  */
 public class Exercise2 {
     public static void main(String[] args){
